@@ -16,24 +16,16 @@ body {
 }
 
 /*
-* Main Content
-*/
-
-
-/*
- * Dashboard Circles
+ * Dashboard Images
  */
 
-.circles {
+.dashimage {
   margin-bottom: 30px;
   text-align: center;
 }
-.circles h4 {
+.dashimage h4 {
   margin-bottom: 0;
 }
-.circles {
+.dashimage {
   margin-bottom: 20px;
-}
-.circles img {
-  border-radius: 50%;
 }
