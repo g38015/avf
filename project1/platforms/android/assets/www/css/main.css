@@ -1,3 +1,27 @@
 /*
- * Globals
+ * Base
  */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+/*
+ * Dashboard Circles
+ */
+
+.circles {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.circles h4 {
+  margin-bottom: 0;
+}
+.circles {
+  margin-bottom: 20px;
+}
+.circles img {
+  border-radius: 50%;
+}
