@@ -29,3 +29,7 @@ body {
 .dashimage {
   margin-bottom: 20px;
 }
+
+.inner {
+  display: inline-block;
+}

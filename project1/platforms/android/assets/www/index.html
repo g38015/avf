@@ -15,26 +15,26 @@
     <div class="container-fluid">
         
         <!-- row one dashboard images -->
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-md-12 dashimage">
           <h1 class="page-header">Dashboard <small>AVF Demo App</small></h1>
           <div class="row dashimage">
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:NATIVE/sky" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:NATIVE/sky" class="img-responsive" alt="Placeholder">
               <h4>Native <span class="glyphicon glyphicon-search"></span></h4>
               <span class="text-muted">iOS and Android</span>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:NATIVE/vine" class="img-responsive" alt="Placehholder">
+              <img data-src="js/holder.js/150x150/text:NATIVE/vine" class="img-responsive" alt="Placehholder">
               <h4>Native <span class="glyphicon glyphicon-camera"></span></h4>
               <span class="text-muted">iOS and Android</span>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:NATIVE/lava" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:NATIVE/lava" class="img-responsive" alt="Placeholder">
               <h4>Native <span class="glyphicon glyphicon-cloud"></span></h4>
               <span class="text-muted">iOS and Android</span>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:NATIVE/gray" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:NATIVE/gray" class="img-responsive" alt="Placeholder">
               <h4>Native <span class="glyphicon glyphicon-map-marker"></span></h4>
               <span class="text-muted">iOS Only</span>
             </div>
@@ -42,25 +42,25 @@
         </div><!-- end row one dashboard images -->
         
         <!-- row two dashboard images -->
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-md-12 dashimage">
           <div class="row dashimage">
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:NATIVE/industrial" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:NATIVE/industrial" class="img-responsive" alt="Placeholder">
               <h4>Native <span class="glyphicon glyphicon-phone"></span></h4>
               <span class="text-muted">Android Only</span>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:JSON-P/social" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:JSON-P/social" class="img-responsive" alt="Placeholder">
               <h4>JSON-P API <span class="glyphicon glyphicon-stats"></span></h4>
               <span class="text-muted">Instagram</span>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:JSON-P/vine" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:JSON-P/vine" class="img-responsive" alt="Placeholder">
               <h4>JSON-P API <span class="glyphicon glyphicon-tasks"></span></h4>
               <span class="text-muted">Twitter</span>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <img src="holder.js/150x150/text:API/sky" class="img-responsive" alt="Placeholder">
+              <img data-src="js/holder.js/150x150/text:API/sky" class="img-responsive" alt="Placeholder">
               <h4>API <span class="glyphicon glyphicon-flash"></span></h4>
               <span class="text-muted">Facebook</span>
             </div>
@@ -95,8 +95,8 @@
               </div>
               <div class="panel-body">
                 <div class="list-group">
-                  <a href="#" class="list-group-item">Bootstrap<span class="glyphicon glyphicon-play pull-right"></span></a>
-                  <a href="#" class="list-group-item">Holder.js<span class="glyphicon glyphicon-play pull-right"></span></a>
+                  <a href="http://getbootstrap.com/" class="list-group-item">Bootstrap<span class="glyphicon glyphicon-play pull-right"></span></a>
+                  <a href="https://github.com/imsky/holder" class="list-group-item">Holder.js<span class="glyphicon glyphicon-play pull-right"></span></a>
               </div>
               </div>
             </div>
@@ -106,12 +106,13 @@
           <div class="col-md-4">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title">Peter Hitchcock<span class="pull-right">AVF 1402 Project 1</span></h3>
+                <h3 class="panel-title">Peter Hitchcock<span class="pull-right">AVF 1402</span></h3>
               </div>
               <div class="panel-body">
                 <div class="list-group">
-                  <a href="#" class="list-group-item">Github<span class="glyphicon glyphicon-play pull-right"></span></a>
-                  <a href="#" class="list-group-item">GHPages<span class="glyphicon glyphicon-play pull-right"></span></a>
+                  <a href="https://github.com/phitchcock/avf" class="list-group-item">Github<span class="glyphicon glyphicon-play pull-right"></span></a>
+                  <a href="http://phitchcock.github.io/avf/project1/platforms/android/assets/www/index.html" class="list-group-item">GH-Pages Android<span class="glyphicon glyphicon-play pull-right"></span></a>
+                  <a href="http://phitchcock.github.io/avf/project1/platforms/ios/www/index.html" class="list-group-item">GH-Pages iOS<span class="glyphicon glyphicon-play pull-right"></span></a>
                 </div>
               </div>
             </div>
@@ -125,7 +126,7 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- bootstrap, holder, and main.js -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/holder.min.js"></script>
+    <script src="js/holder.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
