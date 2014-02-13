@@ -15,12 +15,12 @@
     <div class="container-fluid">
         
         <!-- row one dashboard images -->
-        <div class="col-sm-12 col-md-12 dashimage">
+        <div class="col-sm-12 col-md-12">
           <h1 class="page-header">Dashboard <small>AVF Demo App</small></h1>
           <div class="row dashimage">
             <div class="col-xs-6 col-sm-3">
               <img data-src="js/holder.js/150x150/text:NATIVE/sky" class="img-responsive" alt="Placeholder">
-              <h4>Native <span class="glyphicon glyphicon-search"></span></h4>
+              <a href="instagramapi.html"><h4>Native <span class="glyphicon glyphicon-search"></span></h4></a>
               <span class="text-muted">iOS and Android</span>
             </div>
             <div class="col-xs-6 col-sm-3">
@@ -42,7 +42,7 @@
         </div><!-- end row one dashboard images -->
         
         <!-- row two dashboard images -->
-        <div class="col-sm-12 col-md-12 dashimage">
+        <div class="col-sm-12 col-md-12">
           <div class="row dashimage">
             <div class="col-xs-6 col-sm-3">
               <img data-src="js/holder.js/150x150/text:NATIVE/industrial" class="img-responsive" alt="Placeholder">
@@ -78,11 +78,11 @@
                 <h3 class="panel-title">Research</h3>
               </div>
               <div class="panel-body">
-                <div class="list-group">
-                  <a href="#" class="list-group-item">Week One: Data Research, Project Intent<span class="glyphicon glyphicon-play pull-right"></span></a>
-                  <a href="#" class="list-group-item">Week Two: Accessibility<span class="glyphicon glyphicon-play pull-right"></span></a>
-                  <a href="#" class="list-group-item">Week Three: Industry Research<span class="glyphicon glyphicon-play pull-right"></span></a>
-                </div>
+                <ul class="list-group">
+                  <li class="list-group-item" data-toggle="modal" data-target="#weekOne">Week One: Data Research, Project Intent<span class="glyphicon glyphicon-play pull-right"></span></li>
+                  <li class="list-group-item">Week Two: Accessibility<span class="glyphicon glyphicon-play pull-right"></span></li>
+                  <li class="list-group-item">Week Three: Industry Research<span class="glyphicon glyphicon-play pull-right"></span></li>
+                </ul>
               </div>
             </div>
           </div><!-- end panel one -->
@@ -119,6 +119,45 @@
           </div><!-- end panel three -->
         </div>
       </div><!-- end panel row -->
+
+      <!-- Modals -->
+      <!-- Modal -->
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Week One: Data Research</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+              Hello Everyone, <br />
+              <br />
+              Here are my answers to the questions outlined in the instructions: <br />
+               <br />
+              1.  Twitter can be used to login to your application with Oauth2.  This makes it easy for a user to login to your app without having to provide any login credentials directly to the application.  It also makes it easier as an app developer not having to worry about user logins.  There are rumors that Twitter is teaming up with Stripe to provide payment processing through tweets.  Interesting concept we will see how this progresses.  On a side note Stripe is the way to go over PayPal if you are a developer accepting payments. <br />
+               <br />
+              2.  JSON-P helps us bypass a web browser’s security block on cross-domain Ajax requests or the same origin policy.  I have researched numerous data sources on Programmable Web and have been tying to narrow it down to an API that I would like to utilize in my app. <br />
+               <br />
+              3.  There are so many I have having a hard time narrowing them down.  At first I thought integrating real estate data would be cool but there are only 2 providers that I would use Zillow or Trulia.  It seems that both are only pushing out XML so still working on that.  There are some interesting ones for chat, location services, contact management, one on recent arrest photos, PhoeGap(their build service) and Dropbox.  Right now I am just trying to parse a few different APIs so I can decide what I am going to include. <br />
+               <br />
+              4.  As of today I am undecided.  This is the fist time I have ever used Instagram so trying to match another API with it and using the PhoneGap APIs to come up with an idea has been the most challenging so far.  Hopefully we can go over the callback function for .getJSON on Wednesday night? <br />
+               <br />
+              5.  Sometimes my flow in the design workflow suffers due to my design skills lacking in design creation.  Before I would always do the coding first and then try to figure out the design.  Now I am working on the design first and working my coding into it. 
+               <br />
+                <br />
+              Respectfully, <br />
+              Peter Hitchcock
+              </p>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       </div><!-- end container -->
 

@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  color: #fff;
+  color: #000;
   /* text-align: center; */
   /* text-shadow: 0 1px 3px rgba(0,0,0,.5);
   box-shadow: inset 0 0 100px rgba(0,0,0,.5); */
@@ -30,6 +30,4 @@ body {
   margin-bottom: 20px;
 }
 
-.inner {
-  display: inline-block;
-}
+
