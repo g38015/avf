@@ -24,9 +24,6 @@ $(document).ready(function() {
   				$results.append(image);
 
   			}); // end each
-
   		}); // end getJSON
-
     }); // end submit
-
 }); // end document ready
