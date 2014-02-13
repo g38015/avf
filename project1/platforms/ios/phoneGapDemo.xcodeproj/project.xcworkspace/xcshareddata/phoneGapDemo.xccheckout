@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>46B4012D-66D1-4872-906D-96C7F6CE2620</string>
+	<key>IDESourceControlProjectName</key>
+	<string>phoneGapDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB3D0666-3E5C-4A09-8697-F9F374E254BD</key>
+		<string>https://github.com/phitchcock/avf.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>project1/platforms/ios/phoneGapDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB3D0666-3E5C-4A09-8697-F9F374E254BD</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/phitchcock/avf.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB3D0666-3E5C-4A09-8697-F9F374E254BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB3D0666-3E5C-4A09-8697-F9F374E254BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>avf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
