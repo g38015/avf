@@ -7,7 +7,7 @@ $(document).ready(function() {
 
       // get data
     	var location_value = $("#getCity").val(),
-			url = "https://outdoor-data-api.herokuapp.com/api.json?api_key=4016165acc967a9800153c77a3528d83&q[city_cont]=" + location_value + "&radius=25&callback=?";
+			url = "https://outdoor-data-api.herokuapp.com/api.json?api_key=946447205338f498e49d36d1adc07822[city_cont]=" + location_value + "&radius=25&callback=?";
 
 		$.getJSON(url, function(data) {
 
@@ -16,10 +16,17 @@ $(document).ready(function() {
       // loop through data
 			$.each(data.places, function(index, activity){
 
-  				 trail = "<ul>" + 
-  				 		 "<li>" + activity.name + "</li>" +  
-  				 		 "</ul>";
-
+  				 trail =  "<div <div class='col-xs-12 col-sm-6 dashimage well'>" +
+                    "<div class='thumbnail'>" +
+                    
+                    "<div class='caption'>" +
+                    "<h4>" + activity.name + "</h4>" +
+                    "<h4>" + activity.city + "</h4>" +
+                    "<p>" + activity.directions + "</p>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>";
+                    
   				$("#trails").append(trail);
 
   		}); // end each
