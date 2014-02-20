@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram API</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="header">
+                <ul class="nav nav-pills">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="instagramapi.html">Instagram API</a></li>
+                  <li><a href="sunlightapi.html">Sunlight API</a></li>
+                </ul>
+              </div>
+      <div class="col-sm-12 col-md-12">
+        <h1 class="page-header">Instagram <small>API</small></h1>
+          
+          <!-- form capture # search -->
+          <form action="" id="apicapture" class="form-inline" role="form">
+            <div class="input-group">
+              <span class="input-group-addon">#</span>
+                <input type="text" id="tag" name="tag" class="form-control" placeholder="Please enter tag" required />
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit" id="btn-lookup"><span class='glyphicon glyphicon-search'></span></button>
+                </span>
+            </div>
+          </form><br /><!-- end form -->
+
+        <!-- populate with instagram data -->
+        <div id="apidata" class="row dashimage">
+          <!-- api data populates div -->
+        </div>
+
+      </div><!-- end col -->
+    </div><!-- end container -->
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <!-- bootstrap and instagram js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/instagramapi.js"></script>
+  </body>
+</html>
