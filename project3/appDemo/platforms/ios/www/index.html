@@ -1,43 +1,135 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PhoneGap Demo</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+    <div class="container-fluid">
+        
+        <!-- row one dashboard images -->
+        <div class="col-sm-12 col-md-12">
+          <h1 class="page-header">Dashboard <small>AVF Demo App</small></h1>
+          <div class="row dashimage">
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="geo.html"><img src="http://placehold.it/200x200&text=NATIVE" class="img-responsive" alt="Placeholder">
+              <h4>Geo <span class="glyphicon glyphicon-search"></span></h4></a>
+              <span class="text-muted">iOS and Android</span>
             </div>
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="connection.html"><img src="http://placehold.it/200x200&text=NATIVE" class="img-responsive" alt="Placehholder">
+              <h4>Connect <span class="glyphicon glyphicon-camera"></span></h4></a>
+              <span class="text-muted">iOS and Android</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="notify.html"><img src="http://placehold.it/200x200&text=NATIVE" class="img-responsive" alt="Placeholder">
+              <h4>Notify <span class="glyphicon glyphicon-cloud"></span></h4></a>
+              <span class="text-muted">iOS and Android</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="accel.html"><img src="http://placehold.it/200x200&text=NATIVE" class="img-responsive" alt="Placeholder">
+              <h4>Accel <span class="glyphicon glyphicon-map-marker"></span></h4></a>
+              <span class="text-muted">iOS Only</span>
+            </div>
+          </div>
+        </div><!-- end row one dashboard images -->
+        
+        <!-- row two dashboard images -->
+        <div class="col-sm-12 col-md-12">
+          <div class="row dashimage">
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="compass.html"><img src="http://placehold.it/200x200&text=NATIVE" class="img-responsive" alt="Placeholder">
+              <h4>Compass <span class="glyphicon glyphicon-phone"></span></h4></a>
+              <span class="text-muted">Android Only</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="instagramapi.html"><img src="http://placehold.it/200x200&text=API" class="img-responsive" alt="Placeholder">
+              <h4>Instagram <span class="glyphicon glyphicon-stats"></span></h4></a>
+              <span class="text-muted">API</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="sunlightapi.html"><img src="http://placehold.it/200x200&text=API" class="img-responsive" alt="Placeholder">
+              <h4>Sunlight <span class="glyphicon glyphicon-tasks"></span></h4></a>
+              <span class="text-muted">API</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 dashimage">
+              <a href="trailapi.html"><img src="http://placehold.it/200x200&text=API" class="img-responsive" alt="Placeholder">
+              <h4>Trail <span class="glyphicon glyphicon-flash"></span></h4></a>
+              <span class="text-muted">API</span>
+            </div>
+          </div>
+        </div><!-- end row two dashboard images -->
+
+        <!-- panel row -->
+        <div class="col-sm-12 col-md-12"> 
+        <div class="row">
+          
+          <!-- panel one -->
+          <div class="col-md-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Research</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="week1.html">Week One: Data Research, Project Intent<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                  <li class="list-group-item"><a href="#">Week Two: Accessibility<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                  <li class="list-group-item"><a href="#">Week Three: Industry Research<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- end panel one -->
+          
+          <!-- panel two -->
+          <div class="col-md-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Credits</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li><a href="http://getbootstrap.com/" class="list-group-item">Bootstrap<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                  <li><a href="https://github.com/imsky/holder" class="list-group-item">Holder.js<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+              </ul>
+              </div>
+            </div>
+          </div><!-- end panel two -->
+
+          <!-- panel three -->
+          <div class="col-md-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Peter Hitchcock<span class="pull-right">AVF 1402</span></h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li><a href="https://github.com/phitchcock/avf" class="list-group-item">Github<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                  <li><a href="http://phitchcock.github.io/avf/project1/platforms/android/assets/www/index.html" class="list-group-item">GH-Pages Android<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                  <li><a href="http://phitchcock.github.io/avf/project1/platforms/ios/www/index.html" class="list-group-item">GH-Pages iOS<span class="glyphicon glyphicon-play pull-right"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- end panel three -->
+
+
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+      </div><!-- end panel row -->
+
+      </div><!-- end container -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- bootstrap, holder, and main.js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
