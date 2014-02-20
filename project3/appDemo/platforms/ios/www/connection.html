@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trail API</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom css -->
+    <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+     <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        checkConnection();
+    }
+
+        function checkConnection() {
+            var networkState = navigator.connection.type;
+
+            var states = {};
+            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI]     = 'WiFi connection';
+            states[Connection.CELL_2G]  = 'Cell 2G connection';
+            states[Connection.CELL_3G]  = 'Cell 3G connection';
+            states[Connection.CELL_4G]  = 'Cell 4G connection';
+            states[Connection.CELL]     = 'Cell generic connection';
+            states[Connection.NONE]     = 'No network connection';
+
+            alert('Connection type: ' + states[networkState]);
+        }
+
+    </script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="header">
+                <ul class="nav nav-pills">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="instagramapi.html">Instagram API</a></li>
+                  <li><a href="sunlightapi.html">Sunlight API</a></li>
+                </ul>
+              </div>
+      <div class="col-sm-12 col-md-12">
+        <h1 class="page-header">Connection <small>Native</small></h1>
+        
+      
+      <!-- populate div with data from api -->
+      <div>
+        <p>A dialog box will report the network state.</p>
+      </div>
+
+      </div><!-- end col -->
+    </div><!-- end container -->
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <!-- bootstrap, holder, and main.js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    
+  </body>
+</html>
